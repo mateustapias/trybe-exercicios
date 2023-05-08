@@ -37,14 +37,14 @@
 // console.log(facMax);
 
 // #######
-// let word = 'tryber';
-// let reverseWord = '';
-// // for (let v of word){
-// //   console.log(v)
-// // }
-// for (let i = 0; i < word.length; i+=1) {
-//   reverseWord += word[word.length - 1 -i];
+let word = 'tryber';
+let reverseWord = '';
+// for (let v of word){
+//   console.log(v)
 // }
-// console.log(reverseWord);
+for (let i = 0; i < word.length; i+=1) {
+  reverseWord += word[word.length - 1 -i];
+}
+console.log(reverseWord);
 
 // #######
